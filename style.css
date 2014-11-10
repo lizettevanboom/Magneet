@@ -1,0 +1,213 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html { 
+  background: url(images/cover.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#wrapper {
+	width: 600px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-top:100px;
+}
+
+.programma {
+	margin-top: 30px;
+	width: 100px;
+}
+
+img[src="images/programma.png"] {
+	  width: 100px;
+	height: auto;
+}
+
+.plattegrond {
+	margin-top: 30px;
+	width: 170px;
+	position: relative;
+}
+
+
+.vogel {
+	float: right;
+	position: absolute;
+	left:170px;
+	top: -107px;
+	z-index: -1;
+}
+
+img[src="images/vogel.png"] {
+  padding-top: 30px;
+  width: 520px;
+	height: auto;
+}
+
+.logo {
+	width: 600px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	
+}
+
+.titel {
+	width: 200px;
+	height:auto;
+	padding-top:10px;
+	padding-bottom: 20px;
+}
+
+.terug {
+	float: right;
+	width:70px;
+	height:auto;
+	padding-top:10px;
+}
+
+.schema {
+	width:600px;
+	height:auto;
+}
+
+img[src="images/logo.png"] {
+  padding-top: 30px;
+  width: 250px;
+  height: auto;
+}
+
+#row{
+	padding-top: 30px;
+	z-index: 1;
+}
+
+#row img {
+	width: 25%;
+}
+
+
+.home {
+	float: right;
+}
+
+.home2 {
+	position:absolute;
+	left: 530px;
+	top: -6px; 
+}
+	
+
+.muziekpodia {
+	float:left;
+}
+.scroll {
+	width: 400px;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+	float: left;
+}
+
+.podia {
+	width: 200px;
+	height: auto;
+}
+
+.datum {
+	width: 80px;
+	height: auto;
+}
+
+.vrijdag22 {
+	width:auto; height:565px;
+	margin-top: 4px;
+}
+.zaterdag23 {
+	width:auto; height:544px;
+}
+
+.zondag24 {
+	width:auto; height:609px;
+	margin-top: 3px;
+}
+
+.vrijdag29 {
+	width:auto; height:596px;
+	margin-top: -1px;
+}
+
+.zaterdag30 {
+	width:auto; height:566px;
+	margin-top: 3px;
+}
+
+.zondag31 {
+	width:auto; height:566px;
+	margin-top: 3px;
+}
+
+img[src="images/24.png"] {
+	width: auto;
+	height: 175px;}
+
+@media (max-width : 620px) {
+	body {margin:0px;}
+	.logo {width: 320px;padding-left: 40px;margin-right:0px;padding-top:10px;}
+	.header {padding-top:0px;width: 300px;}
+	.home {margin-right:20px;}
+	img[src="images/logo.png"] {width: 200px;margin-bottom:15px;padding-top:0px;}
+	#wrapper {width:320px;margin-left:20px;margin-top:40px;}
+	.programma {margin-top: 0px;margin-bottom:10px;width: 100px;}
+	img[src="images/programma.png"] {width: 80px;height: auto;padding-bottom:15px;}
+	#row {padding-top: 5px;}
+	img[src="images/vogel.png"] {padding-top: 30px;width: 254px;height: auto;}
+	.vogel {left:100px;top:-40px;}
+	img[src="images/24.png"] {width: auto;height: 80px;}
+	body {margin-top:10px;}
+	.podia {width: 150px;height: auto;}
+	.scroll {width:150px;}
+	.datum {width:30px;}
+	img[src="images/home.png"] {width: 40px;}
+	.vrijdag22{height:426px;margin-top:2px;}
+	.zaterdag23{height:408px;}
+	.zondag24{height:458px;margin-top:2px;}
+	.vrijdag29{height:447px;}
+	.zaterdag30{height:425px;margin-top:2px;}
+	.zondag31{height:425px;margin-top:2px;}
+	.terug {
+	float: right;
+	width:35px;
+	height:auto;
+	margin-top:-12px;
+	padding-right:35px;
+}
+
+
+img[src="images/31.png"] {
+	width: auto;
+	height: 80px;}
+.titel {
+	width: 150px;
+	height:auto;
+	padding-top:0px;
+	padding-bottom: 20px;
+}
+.schema{
+	width:280px;
+}
+
+.home2 {
+	left: 250px;
+}
+
+
+	
+}
+
